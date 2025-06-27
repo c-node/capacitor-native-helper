@@ -1,4 +1,4 @@
-package com.delkeda.nativehelper;
+package com.signalapp.nativehelper;
 
 import android.util.Log;
 

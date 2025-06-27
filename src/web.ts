@@ -58,4 +58,11 @@ export class NativeHelperWeb extends WebPlugin implements NativeHelperPlugin {
   async goToNotificationSettings(): Promise<void> {
     console.log('goToNotificationSettings: Not available on web');
   }
+
+  async checkTheme(): Promise<{ theme: string }> {
+    const isDarkMode = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+    const theme = isDarkMode ? 'dark' : 'light';
+
+    return { theme };
+  }
 }

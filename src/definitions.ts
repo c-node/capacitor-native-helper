@@ -17,4 +17,5 @@ export interface NativeHelperPlugin {
   getVersionName(): Promise<{ versionName: string }>;
   requestOverlayPermission(): Promise<void>;
   goToNotificationSettings(): Promise<void>;
+  checkTheme(): Promise<{ theme: string }>;
 }

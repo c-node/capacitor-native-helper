@@ -25,6 +25,7 @@ npx cap sync
 * [`getVersionName()`](#getversionname)
 * [`requestOverlayPermission()`](#requestoverlaypermission)
 * [`goToNotificationSettings()`](#gotonotificationsettings)
+* [`checkTheme()`](#checktheme)
 
 </docgen-index>
 
@@ -157,6 +158,17 @@ requestOverlayPermission() => Promise<void>
 ```typescript
 goToNotificationSettings() => Promise<void>
 ```
+
+--------------------
+
+
+### checkTheme()
+
+```typescript
+checkTheme() => Promise<{ theme: string; }>
+```
+
+**Returns:** <code>Promise&lt;{ theme: string; }&gt;</code>
 
 --------------------
 
