@@ -1,0 +1,163 @@
+{
+  "api": {
+    "name": "NativeHelperPlugin",
+    "slug": "nativehelperplugin",
+    "docs": "",
+    "tags": [],
+    "methods": [
+      {
+        "name": "echo",
+        "signature": "(options: { value: string; }) => Promise<{ value: string; }>",
+        "parameters": [
+          {
+            "name": "options",
+            "docs": "",
+            "type": "{ value: string; }"
+          }
+        ],
+        "returns": "Promise<{ value: string; }>",
+        "tags": [],
+        "docs": "",
+        "complexTypes": [],
+        "slug": "echo"
+      },
+      {
+        "name": "toastMe",
+        "signature": "(options: { text: string; }) => Promise<void>",
+        "parameters": [
+          {
+            "name": "options",
+            "docs": "",
+            "type": "{ text: string; }"
+          }
+        ],
+        "returns": "Promise<void>",
+        "tags": [],
+        "docs": "",
+        "complexTypes": [],
+        "slug": "toastme"
+      },
+      {
+        "name": "moveToBackground",
+        "signature": "() => Promise<void>",
+        "parameters": [],
+        "returns": "Promise<void>",
+        "tags": [],
+        "docs": "",
+        "complexTypes": [],
+        "slug": "movetobackground"
+      },
+      {
+        "name": "startClipService",
+        "signature": "() => Promise<void>",
+        "parameters": [],
+        "returns": "Promise<void>",
+        "tags": [],
+        "docs": "",
+        "complexTypes": [],
+        "slug": "startclipservice"
+      },
+      {
+        "name": "stopClipService",
+        "signature": "() => Promise<void>",
+        "parameters": [],
+        "returns": "Promise<void>",
+        "tags": [],
+        "docs": "",
+        "complexTypes": [],
+        "slug": "stopclipservice"
+      },
+      {
+        "name": "storeInSharedPrefs",
+        "signature": "(options: { key: string; value: string; }) => Promise<void>",
+        "parameters": [
+          {
+            "name": "options",
+            "docs": "",
+            "type": "{ key: string; value: string; }"
+          }
+        ],
+        "returns": "Promise<void>",
+        "tags": [],
+        "docs": "",
+        "complexTypes": [],
+        "slug": "storeinsharedprefs"
+      },
+      {
+        "name": "getOverlayPermissionStatus",
+        "signature": "() => Promise<{ result: boolean; }>",
+        "parameters": [],
+        "returns": "Promise<{ result: boolean; }>",
+        "tags": [],
+        "docs": "",
+        "complexTypes": [],
+        "slug": "getoverlaypermissionstatus"
+      },
+      {
+        "name": "getNotificationPermissionStatus",
+        "signature": "() => Promise<{ result: boolean; }>",
+        "parameters": [],
+        "returns": "Promise<{ result: boolean; }>",
+        "tags": [],
+        "docs": "",
+        "complexTypes": [],
+        "slug": "getnotificationpermissionstatus"
+      },
+      {
+        "name": "getSystemLanguage",
+        "signature": "() => Promise<{ value: string; }>",
+        "parameters": [],
+        "returns": "Promise<{ value: string; }>",
+        "tags": [],
+        "docs": "",
+        "complexTypes": [],
+        "slug": "getsystemlanguage"
+      },
+      {
+        "name": "getVersionName",
+        "signature": "() => Promise<{ versionName: string; }>",
+        "parameters": [],
+        "returns": "Promise<{ versionName: string; }>",
+        "tags": [],
+        "docs": "",
+        "complexTypes": [],
+        "slug": "getversionname"
+      },
+      {
+        "name": "requestOverlayPermission",
+        "signature": "() => Promise<void>",
+        "parameters": [],
+        "returns": "Promise<void>",
+        "tags": [],
+        "docs": "",
+        "complexTypes": [],
+        "slug": "requestoverlaypermission"
+      },
+      {
+        "name": "goToNotificationSettings",
+        "signature": "() => Promise<void>",
+        "parameters": [],
+        "returns": "Promise<void>",
+        "tags": [],
+        "docs": "",
+        "complexTypes": [],
+        "slug": "gotonotificationsettings"
+      },
+      {
+        "name": "checkTheme",
+        "signature": "() => Promise<{ theme: string; }>",
+        "parameters": [],
+        "returns": "Promise<{ theme: string; }>",
+        "tags": [],
+        "docs": "",
+        "complexTypes": [],
+        "slug": "checktheme"
+      }
+    ],
+    "properties": []
+  },
+  "interfaces": [],
+  "enums": [],
+  "typeAliases": [],
+  "pluginConfigs": []
+}
